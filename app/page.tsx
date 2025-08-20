@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Airdrop from './Airdrop';
+
+
+
+
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+  < Airdrop />
+  );
+}  
 
-export default Home
+export default Home  
