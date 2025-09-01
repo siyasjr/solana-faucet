@@ -1,0 +1,2 @@
+A simple faucet service for requesting free SOL on the Solana Devnet.  
+This project helps developers test their dApps by providing them with SOL tokens to pay for transactions and deploy programs on Devnet
