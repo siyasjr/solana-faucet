@@ -24,11 +24,25 @@ export default function Showbalance() {
 
    
     return (
-        <div> 
-            <p>SOL Balance: </p>
-            <div> {balance !== null ? balance.toFixed(2) : "Loading.."}</div>
-        </div>
 
-
+        <> 
+        <main className="flex flex-col items-center justify-center  p-8">
+          <h2 className="text-2xl font-bold mb-6">Balance</h2>
+          
+          
+            <div className="flex flex-col gap-3 items-center">
+             
+              <button
+                
+                className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+              >
+                {balance !== null ? balance.toFixed(2) : "Connect to wallet first"}
+              </button>
+              
+            </div>
+         
+        </main>
+    
+</>
     );
 }
