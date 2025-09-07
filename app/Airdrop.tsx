@@ -37,7 +37,7 @@ export default function Airdrop() {
 
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-8">
+    <main className="flex flex-col items-center justify-centerp-8">
       <h1 className="text-2xl font-bold mb-6">Solana Airdrop (Devnet)</h1>
       <WalletMultiButton className="mb-4" />
       {publicKey && (
