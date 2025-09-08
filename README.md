@@ -12,7 +12,7 @@ Features include airdropping SOL, viewing wallet balance, signing messages, and 
 - ⚡ Next.js 13 App Router + TypeScript.
 - 🎨 Styled with TailwindCSS and optimized Google Fonts.
 
-### 🖼️ Screenshot
+### Screenshot
 
 ![Screenshot](./public/output.gif)
 
