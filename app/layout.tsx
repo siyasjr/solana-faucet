@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Solana Devnet Faucet",
   description: "Features: Airdrop, View Balance, Sign Message, Send Tokens",
+   icons: {
+    icon: "/favicon.png",
+   }
 };
 
 export default function RootLayout({
