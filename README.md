@@ -12,6 +12,13 @@ Features include airdropping SOL, viewing wallet balance, signing messages, and 
 - ⚡ Next.js 13 App Router + TypeScript.
 - 🎨 Styled with TailwindCSS and optimized Google Fonts.
 
+### 🖼️ Screenshot
+
+![Screenshot](./public/output.gif)
+
+
+---
+
 ## 🛠️ Getting Started
 
 1. Install dependencies:
@@ -26,18 +33,7 @@ Features include airdropping SOL, viewing wallet balance, signing messages, and 
 
 2. Run the development server:
     npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    # or
-    bun dev
 
 3. Open http://localhost:3000
-
-
- Deployment:
-
-Deploy easily on Vercel
 
 ⚠️ Note: This dApp is for Devnet testing only. Do not use with real SOL on Mainnet.
