@@ -34,7 +34,7 @@ export default function Showbalance() {
              
               <button
                 
-                className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+                className="bg-purple-800 text-white px-4 py-2 rounded-lg"
               >
                 {balance !== null ? balance.toFixed(2) : "Connect to wallet first"}
               </button>
