@@ -1,7 +1,7 @@
 "use client";
 
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import WalletMultiButton from "./WalletMultiButtonWrapper";
 import { useState } from "react";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 
