@@ -53,7 +53,7 @@ export function SendTokens(){
 
     }
      return (
-    <main className="flex flex-col items-center justify-centerp-8">
+    <main className="flex flex-col items-center justify-centerp-8 gap-3">
       <h1 className="text-2xl font-bold mb-6">Send Solana</h1>
       <input
         type="text"
